@@ -1,0 +1,28 @@
+{
+  "name": "axiosjest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vika-Skliarova/AXIOSJEST.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vika-Skliarova/AXIOSJEST/issues"
+  },
+  "homepage": "https://github.com/Vika-Skliarova/AXIOSJEST#readme",
+  "dependencies": {
+    "axios": "^1.14.0",
+    "dotenv": "^17.3.1"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
