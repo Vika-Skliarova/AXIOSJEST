@@ -6,6 +6,8 @@ const {
     createPost
 } = require('../src/clients/postsApi');
 
+const { newPost } = require('../src/data/postData.js');
+
 describe('JSONPlaceholder API /posts', () => {
     test('GET /posts', async () => {
         const response = await getAllPosts();
@@ -50,12 +52,6 @@ describe('JSONPlaceholder API /posts', () => {
     });
 
     test('POST /posts', async () => {
-        const newPost = {
-            title: 'Test title',
-            body: 'Test body text',
-            userId: 1
-        };
-
         const response = await createPost(newPost);
 
         expect(response.data).toHaveProperty('id');
